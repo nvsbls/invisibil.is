@@ -8,3 +8,19 @@
 h1 {
   color: #000000;
 }
+
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover {
+  /* Many browsers keep the same color by default */
+  color: blue;          /* or the same as link/visited */
+  text-decoration: underline;
+}
